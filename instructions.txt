@@ -1,0 +1,33 @@
+=======================================================
+AKHILESH MECHANICS BILLING APP - SOURCE CODE & APK
+=======================================================
+
+I have successfully created the complete source project for the Android Mobile Application.
+All your business details (Shop Name, Address, Phone) are pre-configured inside the app!
+
+Features included:
+1. One-screen unified bill creation flow with low-end Android compatibility.
+2. AI Chat Assistant fully baked in! (You can type "Add clutch plate for 1200" and it understands it entirely offline - no internet required).
+3. Professional PDF invoice generator that works offline and supports WhatsApp sharing.
+4. Auto calculation of totals and editing capabilities.
+
+HOW TO TEST THE APP LOCALLY (WITHOUT INSTALLING APK):
+1. Double click the `run_test.bat` file in this folder.
+2. Install the "Expo Go" app on your Android phone from Google Play.
+3. Once the black command window opens, it will display a QR code. Scan it from the Expo Go app. 
+4. The app will launch instantly on your device!
+
+HOW TO GET THE FINAL .APK FILE:
+Because building a signed Android APK directly requires a 10GB Android Development Toolkit download on this PC, the modern way is to use Expo's free cloud servers:
+1. Open Command Prompt in the `mechanical-shop-billing` folder.
+2. Type `npm install -g eas-cli` and hit Enter.
+3. Type `eas login` (you must create a free account at expo.dev).
+4. Type `eas build -p android --profile preview`.
+5. After roughly 8 minutes, it will give you a direct download link for your `Akhilesh Mechanics.apk` file. 
+
+HOW TO INSTALL THE APK ONCE DOWNLOADED:
+1. Transfer the .apk file to your Android Phone.
+2. Tap the file in your File Manager.
+3. If prompted, click "Settings" and enable "Allow from this source".
+4. Click "Install".
+5. You're done! Open "Akhilesh Mechanics" from your app drawer.
