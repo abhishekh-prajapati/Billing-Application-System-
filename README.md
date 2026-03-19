@@ -1,98 +1,33 @@
-**Akhilesh Mechanics** – AI Billing App
+# Akhilesh Mechanics Billing Application
 
-A minimal, offline-first Android billing application designed for small mechanical workshops.
-The app focuses on speed, clarity, and reliability, allowing daily bill generation without technical complexity.
+This is a production-ready, offline-first React Native (Expo) billing application designed for **Akhilesh Mechanics**.
 
-Overview
-This application enables shop owners to generate professional invoices directly from an Android device.
-It integrates an AI-powered assistant to reduce errors and confusion during bill creation while keeping the workflow simple and fast.
-The app is specifically tailored for real-world shop usage, not demos or prototypes.
+## Features
 
-Shop Details (Default)
-These details are automatically printed on every bill:
-Shop Name: Akhilesh Mechanics
-Address: Dr S S Rao Road Marg, Parel, Mumbai, Maharashtra 400012, India
-Phone: 8850157332
+- **Offline First**: All bills and data are stored locally on the device. No internet required for core billing capabilities.
+- **Smart AI Assistant**: Features a simple rule-based AI engine that operates offline to understand commands like _"Add clutch plate for 1200"_, _"change gear oil price to 400"_, or _"remove clutch plate"_.
+- **Professional PDF Generation**: Instantly generates professional, printable, A4-ready invoices and lets you share them via WhatsApp or email.
+- **Easily Editable**: Edit quantities, prices, and names on the fly right from the home screen.
+- **Low-End Device Compatibility**: Works smoothly on Android 8+ using React Native's standard optimized UI components.
 
-Currency: INR (₹)
-Shop details can be made editable from settings if required.
+## How to use locally
 
-Core Features
-Bill Generation
+To run the app locally on your machine or test on your phone:
 
-Add items with:
-Item name
-Quantity
-Price per unit
+1. Make sure you have Node JS installed.
+2. In this folder, run \`npm install\` (if not already installed).
+3. Run \`npx expo start\` to start the Metro bundler.
+4. Download the **Expo Go** app on your Android device from the Play Store.
+5. Scan the QR code shown in your terminal from the Expo Go app to preview it live.
 
-Automatic calculation of:
-Line totals
-Subtotal
-Grand total
-Auto-generated bill number and timestamp
+## How to build an APK
 
-AI Assistant
-Built-in AI chat interface to assist during billing
-Accepts natural language commands such as:
-“Add brake oil 250”
-“Change price of clutch plate to 1200”
-“Remote last item”
+To compile this project into a standalone Android APK:
 
-AI does not guess or invent values
-Requests clarification when input is incomplete
+1. Install EAS CLI: \`npm install -g eas-cli\`
+2. Login to your Expo account: \`eas login\` (Create a free account at expo.dev if you don't have one)
+3. Run the build command for Android: \`eas build -p android --profile preview\`
+4. Wait for the build to finish in the cloud (takes about 5-10 minutes).
+5. EAS will provide you with a direct link to download the **.apk** file! Download and install it on your Android phone.
 
-Note: AI features require an internet connection.
-Core billing works fully offline.
-
-Professional Invoice Template
-Clean, printable invoice layout
-A4 and mobile-friendly design
-
-Clear hierarchy:
-
-Shop details
-Bill information
-Item table
-Highlighted total amount
-Edit After Generation
-Bills can be edited even after generation
-Quantity, price, and items can be modified
-Totals update instantly
-Download & Share
-Download invoice as PDF
-Optional sharing via WhatsApp or other apps
-Technical Characteristics
-
-Platform: Android (APK)
-Minimum Android Version: Android 8+
-Offline-first architecture
-Local storage for saved bills
-No login required
-No ads
-Optimized for low-end devices
-User Experience Design
-Large touch targets
-Minimal text
-Simple English (shop-owner friendly)
-Single-screen bill creation
-Bottom-sheet based item editing
-Floating AI assistant access
-
-Limitations
-AI assistant requires internet access
-Fully offline AI is not supported due to device constraints
-Not designed for GST filing or accounting compliance (billing only)
-Intended Users
-Small mechanical workshops
-Local repair shops
-Non-technical business owners
-Daily, high-frequency billing environments
-
-Installation
-Download the APK file
-Enable Install from unknown sources on Android
-Install and start using immediately
-
-License
-This project is intended for personal and small business use.
-License terms can be added as required.
+> Note: Because building an APK directly on a Windows PC requires a heavy and complex Android SDK / Android Studio setup, using Expo EAS is the fastest, cleanest, and most foolproof way to generate your APK.

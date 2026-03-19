@@ -1,0 +1,52 @@
+{
+"services": [
+{ "name": "oil change", "aliases": ["oil change", "engine oil change", "oil chenj", "tel badalna", "engine tel badalna"] },
+{ "name": "car washing", "aliases": ["washing", "car wash", "gaadi dhona", "car dhona"] },
+{ "name": "car polishing", "aliases": ["polish", "polishing", "polish karna"] },
+{ "name": "wheel alignment", "aliases": ["alignment", "wheel align"] },
+{ "name": "wheel balancing", "aliases": ["balancing"] },
+{ "name": "brake service", "aliases": ["brake service", "brek servis", "brek ka kaam", "brake ka kaam"] },
+{ "name": "clutch repair", "aliases": ["clutch repair", "clutch ka kaam"] },
+{ "name": "engine tuning", "aliases": ["engine tune"] },
+{ "name": "ac service", "aliases": ["ac repair", "ac servis", "ac ka kaam"] },
+{ "name": "battery replacement", "aliases": ["battery change", "battery badalna"] },
+{ "name": "battery charging", "aliases": ["battery charge"] },
+{ "name": "tyre repair", "aliases": ["puncture", "pankchar", "tyre fix", "tyar ripair"] },
+{ "name": "tyre replacement", "aliases": ["tyre change", "tyre badalna"] },
+{ "name": "denting", "aliases": ["dent", "dent nikalna"] },
+{ "name": "painting", "aliases": ["paint", "paint karna"] },
+{ "name": "general service", "aliases": ["full service", "service karna"] },
+{ "name": "radiator cleaning", "aliases": ["radiator saaf karna"] },
+{ "name": "coolant refill", "aliases": ["coolant daalna"] },
+{ "name": "engine repair", "aliases": ["engine ka kaam"] },
+{ "name": "gearbox repair", "aliases": ["gear ka kaam"] }
+],
+
+"parts": [
+{ "name": "engine oil", "aliases": ["oil", "engine oil", "tel"] },
+{ "name": "brake pad", "aliases": ["brake pad", "brek pad"] },
+{ "name": "brake disc", "aliases": ["disc"] },
+{ "name": "clutch plate", "aliases": ["clutch plate"] },
+{ "name": "air filter", "aliases": ["air filter"] },
+{ "name": "fuel filter", "aliases": ["fuel filter"] },
+{ "name": "oil filter", "aliases": ["oil filter"] },
+{ "name": "spark plug", "aliases": ["spark plug"] },
+{ "name": "battery", "aliases": ["battery"] },
+{ "name": "tyre", "aliases": ["tyre", "tire"] },
+{ "name": "coolant", "aliases": ["coolant"] },
+{ "name": "radiator", "aliases": ["radiator"] },
+{ "name": "headlight", "aliases": ["head light"] },
+{ "name": "indicator", "aliases": ["indicator"] },
+{ "name": "wiper blade", "aliases": ["wiper"] },
+{ "name": "belt", "aliases": ["belt"] },
+{ "name": "chain", "aliases": ["chain"] },
+{ "name": "gear oil", "aliases": ["gear oil"] },
+{ "name": "shock absorber", "aliases": ["shocker"] }
+],
+
+"charges": [
+{ "name": "labour charge", "aliases": ["labour", "labor"] },
+{ "name": "service charge", "aliases": ["service fee"] },
+{ "name": "inspection charge", "aliases": ["check charge"] }
+]
+}
